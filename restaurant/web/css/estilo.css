@@ -29,13 +29,34 @@ h2{
 .buscar{
 	margin-right: 10px;
 }
-.fram{
-	margin-left: 3px;
-	height: 200px;
-}
+
 .div{
 	margin-left: 3px;
 }
+
 .fcb{
-	margin-left: 490px;
+	margin-left: 450px;
+}
+
+
+.fram{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.tab{
+	border-color: #F00C0C;
+
+}
+
+.aside{
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: left;
+	font-family: Times, serif;	
+	font-size: 40px;
+}
+.sec{
+	margin-right: 5px;
+	margin-top: 3px;
 }
