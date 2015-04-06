@@ -1,0 +1,38 @@
+        <footer>
+          <div id="footer">
+            <div class="wrapper">
+              <div class="columna">
+                <h3>Acerca de...</h3>
+                  Wayruro es un restauran.
+                  <br/><br/>
+                  <a href="index1.html" title="Wayruro"><u>Ir a la p&aacute;gina princial de Wayruro</u></a>
+                  <br/>                  
+              </div>
+              <div class="columna">
+                  <h3>Otros</h3>
+                  <ul>
+                    <li><a href="" title=""><u></u></a></li>
+                    <li><a href="" title=""><u></u></a></li>
+                    <li><a href="" title=""><u></u></a></li>
+                    <li><a href="" title=""><u></u></a></li>
+                    <li><a href="" title=""><u></u></a></li>
+                    <li><a href="" title=""><u></u></a></li>
+                    <li><a href="" title=""><u></u></a></li>
+                  </ul>
+              </div>
+              <div class="columna">
+                  <br/><br/>
+                  Creado con HTML5 y basado en varios themes.<br />
+                  Valid HTML and CSS.<br />
+                  &copy; 2015 <br /> <br />
+                  <br />
+
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Latest compiled and minified JavaScript -->
+	<script src="jquery/jquery-1.11.2.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

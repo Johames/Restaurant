@@ -60,3 +60,39 @@ h2{
 	margin-right: 5px;
 	margin-top: 3px;
 }
+.columna {
+float:left;
+margin:20px 60px 0;
+width:200px;
+}
+.wrapper {
+margin:0 auto;
+width:1050px;
+}
+#footer {
+background:#AD1616 repeat-x scroll;
+border-top:thin #fff groove;
+color:#fff;
+font-size:14px;
+margin:0 auto 15px;
+overflow:hidden;
+padding:0 0 30px;
+width:1343px;
+}
+#footer a {
+color:#fff;
+}
+#footer a:hover {
+border-bottom:thin #fff dotted;
+color:#fff;
+}
+
+#footer .columna {
+float:left;
+margin:20px 60px 0;
+width:200px;
+}
+
+#footer ul {
+padding:0 0 0 20px;
+}

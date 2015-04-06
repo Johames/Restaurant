@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      	<link type="image/x-icon" href="recursos/ico/favicon.ico" rel="icon" />
+  		  <title>"Wayruro" Cafe Restaurant</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    		<script src="jquery/jquery-1.11.2.min.js"></script>
+    		<script src="bootstrap/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="boostrap/css/boostrap.css">
+    </head>
+
+    <body>
+        <header class="cabecera">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="recursos/img/img1.jpg" alt="img1">
+              </div>
+              <div class="item">
+                <img src="recursos/img/img2.jpg" alt="img2">
+              </div>
+              <div class="item">
+                <img src="recursos/img/img3.jpg" alt="img3">
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <nav role="navigation" class="navbar navbar-default navbar-inverse navbar-fixed-top">
+              <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">"Wayruro" Café Restaurant</a>
+              </div>     
+              <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                      <a href="index.jsp">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true"></span> 
+                      Inicio
+                      </a>
+                    </li>
+                    <li class="dropdown">
+                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                        Acerca de 
+                        <b class="caret">
+                        </b>
+                      </a>
+                      <ul role="menu" class="dropdown-menu">
+                          <li><a href="#">Historia</a></li>
+                          <li><a href="#">Sugerencias</a></li>
+                      </ul>
+                    </li>
+                    <li class="fcb">
+                      <a target="_blank" href="https://www.facebook.com/pages/Wayruro-cafe-restaurante/1476330609261572?__mref=message_bubble">
+                        <img class="fb" src="recursos/img/fb.png" alt="Facebook logo">
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="#">
+                        <img class="google" src="recursos/img/google.png" alt="Google logo">
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="#">
+                        <img class="twitter" src="recursos/img/twitter.png" alt="Twitter logo">
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="#">
+                        <img class="Youtube" src="recursos/img/youtube.png" alt="Youtube logo">
+                      </a>
+                    </li>
+                </ul>
+                <form role="search" class="navbar-form navbar-right">
+                    <div class="buscar">
+                         <input type="text" placeholder="Buscar" class="form-control">
+                    </div>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </header>
