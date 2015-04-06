@@ -1,0 +1,98 @@
+
+h2{
+	margin: 0;     
+	color: #666;
+	padding-top: 90px;
+	font-size: 53px;
+	font-family: "trebuchet ms", sans-serif;    
+}
+.cabecera{
+	height: 255px;
+}		
+.item{
+	background: #333;    
+	text-align: center;
+	height: 254px !important;
+}
+.carousel{
+	margin-top: 50px;
+}
+.bs-example{
+	margin: 25px;
+}
+.pie{
+	background: #BDBDBD;
+	font-size: 90%;
+	text-align: center;
+	margin-top: 200px;
+}
+.buscar{
+	margin-right: 10px;
+}
+
+.div{
+	margin-left: 3px;
+}
+
+.fcb{
+	margin-left: 450px;
+}
+
+
+.fram{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.tab{
+	border-color: #F00C0C;
+
+}
+
+.aside{
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: left;
+	font-family: Times, serif;	
+	font-size: 40px;
+}
+.sec{
+	margin-right: 5px;
+	margin-top: 3px;
+}
+.columna {
+float:left;
+margin:20px 60px 0;
+width:200px;
+}
+.wrapper {
+margin:0 auto;
+width:1050px;
+}
+#footer {
+background:#AD1616 repeat-x scroll;
+border-top:thin #fff groove;
+color:#fff;
+font-size:14px;
+margin:0 auto 15px;
+overflow:hidden;
+padding:0 0 30px;
+width:1343px;
+}
+#footer a {
+color:#fff;
+}
+#footer a:hover {
+border-bottom:thin #fff dotted;
+color:#fff;
+}
+
+#footer .columna {
+float:left;
+margin:20px 60px 0;
+width:200px;
+}
+
+#footer ul {
+padding:0 0 0 20px;
+}
