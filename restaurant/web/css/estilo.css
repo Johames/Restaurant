@@ -97,10 +97,6 @@ width:200px;
 padding:0 0 0 20px;
 }
 
-
-
-
-
 .sidebar {
   display: none;
 }
@@ -113,14 +109,14 @@ padding:0 0 0 20px;
     z-index: 1000;
     display: block;
     //padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: silver;
-    border-right: 1px solid #eee;
+    //overflow-x: hidden;
+    //overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color:#635C5E;
+    //border-right: 1px solid #eee;
   }
 }
 .active {
-  color: #fff;
-  background-color: #428bca;
+  //color: red;
+  background-color:#2A2B2B;
 }
 
