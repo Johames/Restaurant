@@ -1,31 +1,29 @@
-<%@include file="WEB-INF/jspf/top.jspf" %>
 
-        <nav>
-          <div class="fram">
-              <aside>
-                <table border="4"  width="14%" height="20" >
-                  <tr>
-                    <th>
-                      <p align="center"> <big><big><big>Secciones</big></big></big> </p>                    
-                      <hr>                      
-                    <section class="sec">
-                      <ul class="aside" >
-                        <li><a class="btn btn-default  btn-sm" href="#" role="button">Cafes</a></li>
-                        <li><a class="btn btn-default  btn-sm" href="#" role="button">Platos a la Carta</a></li>
-                        <li><a class="btn btn-default btn-sm" href="#" role="button">Postres</a></li>
-                        <li><a class="btn btn-default  btn-sm" href="#" role="button">Licores</a></li>
+<%@include file="WEB-INF/jspf/top.jspf" %> 
 
-                      </ul>
-                    </section>
-                    <figure class="fram">
-                      <img width="160" height="170" src="recursos/img/le1.jpg" />
-                      <figcaption>Leito Diaz Huaman</figcaption>
-                    </figure>
-                    </th>
-                  </tr>
-                </table>
-              </aside>
-          </div>
-        </nav>
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
+      </div>
+</div>
 
 <%@include file="WEB-INF/jspf/bottom.jspf" %>
